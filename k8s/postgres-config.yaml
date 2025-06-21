@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-config
+  namespace: rental-app
+data:
+  POSTGRES_DB: rentaldb
+  POSTGRES_USER: rentaluser
+
